@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Day-1</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    let rootElement = document.getElementById("root");
+
+    let header = (
+      <div>
+        <h1>List of fruits</h1>
+        <ol><li>Apple</li>
+          <li>Mango</li>
+          <li>Banana</li>
+          <li>Kiwi</li>
+          <li>Orange</li>
+          </ol>
+          <img src="https://picsum.photos/200/300" />
+      </div>
+    );
+
+    ReactDOM.createRoot(rootElement).render(header);
+  </script>
+</html>

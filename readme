@@ -1,0 +1,6 @@
+Reflecting on the differences between traditional DOM manipulation and React's approach:
+
+React's declarative approach allows developers to describe the desired state of the UI, rather than imperatively manipulating the DOM.
+With React, you work with components and manage their state, which leads to more modular and maintainable code compared to directly manipulating the DOM.
+React efficiently updates only the components that have changed, optimizing performance.
+React's virtual DOM helps in efficiently updating the actual DOM, reducing the need for manual optimizations.
